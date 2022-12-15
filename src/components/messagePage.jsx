@@ -1,8 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { client } from '../utils/config';
 
-
-
 const refreshPage = ()=>{
   window.location.reload();
 }
