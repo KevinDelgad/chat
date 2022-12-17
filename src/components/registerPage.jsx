@@ -14,9 +14,11 @@ const RegisterPage = () =>{
                         <input className='rounded-md' type="text" name="email" placeholder="Your email" required></input>
                         <input className='rounded-md' type="text" name="username" placeholder="Your username" required></input>
                         <input className='rounded-md' type="text" name="password" placeholder="Your password" required></input>
-                        <Link to='/msgPage' className='flex justify-center'>
-                            <button type='submit' className=' rounded-md text-2xl px-3 font-semibold bg-white'>Enter</button>
-                        </Link>
+                        <button type='submit' className=' rounded-md text-2xl px-3 font-semibold bg-white'>
+                            <Link to='/msgPage' className='flex justify-center'>
+                                Enter
+                            </Link>
+                        </button>
                     </form>
                 </div>
                 <Link to='/'  className='flex justify-center text-white'>Return to Landing</Link>
