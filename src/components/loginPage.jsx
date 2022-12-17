@@ -15,6 +15,7 @@ function LoginPage(){
                         <button className=' rounded-md text-2xl font-semibold bg-white'>Enter</button>
                     </form>
                 </div>
+                <a className='flex justify-center text-white' href="">Return to Landing</a>
             </div>
         </div>
     )

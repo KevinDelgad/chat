@@ -4,7 +4,7 @@ import LoginPage from './components/loginPage';
 import RegisterPage from './components/registerPage';
 function App() {
   return (
-      <RegisterPage   />
+      <LoginPage   />
    
   );
 }
